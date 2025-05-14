@@ -4,7 +4,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
+
+    height: 100hv;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .container {
@@ -39,5 +48,5 @@ h2 {
 .more_info {
     text-align: center;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
 }
